@@ -1,0 +1,160 @@
+#photo,
+#photos,
+#printlogo,
+#manelogo,
+#fablogo,
+#stampupload {
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+#photo:before,
+#photos:before,
+#printlogo:before,
+#manelogo:before,
+#fablogo:before,
+#stampupload:before {
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 32px;
+    content: 'Select Your File';
+    display: inline-block;
+    background: #dcdfe0;
+    border: 1px solid #bdc3c5;
+    text-align: center;
+    padding: 8px;
+    color: #000000;
+    border-radius: 8px;
+}
+
+#photo::-webkit-file-upload-button,
+#photos::-webkit-file-upload-button,
+#printlogo::-webkit-file-upload-button,
+#manelogo::-webkit-file-upload-button,
+#fablogo::-webkit-file-upload-button {
+    visibility: hidden;
+    text-emphasis: none;
+}
+
+.wsn {
+    white-space: nowrap !important;
+}
+
+.select2.select2-container.select2-container--default{
+    width: 100% !important;
+}
+p{
+    font-size: 12px !important;
+}
+
+
+.kbw-signature {
+	display: inline-block;
+	border: 1px solid #a0a0a0;
+	-ms-touch-action: none;
+}
+.kbw-signature-disabled {
+	opacity: 0.35;
+}
+.table-scroll-vertical {
+    overflow-y: scroll;
+    height: 350px;
+}
+.table-scroll {
+    overflow-x: scroll !important;
+    overflow-y: scroll !important;
+    width: 100%;
+    max-height: 500px;
+    min-height: 10px;
+
+}
+.blinking {
+    color: #fff !important;
+    padding: 0px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    animation: blinkingBackground 2s infinite;
+}
+
+@keyframes blinkingBackground {
+    0% {
+        /* background-color: #4fe157; */
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: #ef0a1a;
+    }
+
+    75% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: red;
+    }
+
+}
+.color_span{
+    height: 20px;
+    width: 60px;
+    margin: 1px 10px 0 8px;
+    border-radius:3px;
+}
+.pending{
+    background: #ffba34 !important;
+}
+.confirm{
+    background: #bf3bffbd !important;
+}
+.complete{
+    background: #61f5e6 !important;
+}
+.done{
+    background: #00ff16 !important;
+}
+.block{
+    background: #F64E60 !important;
+}
+.in{
+    background: #b8e553f5 !important;
+}
+.out{
+    background: #f06e1da8 !important;
+}
+.waiting{
+    background: #f1eaea !important;
+}
+
+table tbody tr td{
+    vertical-align: middle !important;
+}
+.form_li_active{
+    background: #c4c8dc !important;
+}
+.pre_slide {
+    color: rgb(47, 47, 47);
+    position: absolute;
+    left: -15px;
+    top: 33%;
+    cursor: pointer;
+    font-size: 20px;
+}
+.nxt_slide {
+    color: rgb(47, 47, 47);
+    position: absolute;
+    right: -15px;
+    top: 33%;
+    cursor: pointer;
+    font-size: 20px;
+}
+.ip_patient_header{
+    background-color: #84cece !important;
+}
