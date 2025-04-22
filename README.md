@@ -1,4 +1,4 @@
-## hospital token
+## MedQ - Smart Queuing for Medical Services
 
  
 
